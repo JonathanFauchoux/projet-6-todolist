@@ -1,0 +1,73 @@
+.form_global{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+   
+    .titre{
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        padding-bottom: 10px;
+    }
+    .aFaire{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        border : 2px solid #0ECCA1;
+        box-shadow: 5px 5px 20px rgba(175, 175, 175, 0.4) ;
+        border-radius: 10px 0;
+        padding: 10px 0;
+        margin : 10px 0;
+        .btn_archive{
+            
+            font-family: 'Orbitron', sans-serif;
+            background-color: #0CB28D;
+            border : 1px solid #0FD9AB;
+            margin : 20px 0 10px 0;
+            box-shadow: 3px 3px 10px rgba(175, 175, 175, 0.4) ;
+            &:hover{
+                background-color: #fff; 
+                color : #000;
+            }
+        }
+
+    }
+    .archived{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        border : 2px solid #0ECCA1;
+        box-shadow: 5px 5px 20px rgba(175, 175, 175, 0.4) ;
+        border-radius: 10px 0;
+        padding: 10px 0;
+        margin : 10px 0;
+    }
+    .addTache{
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+        align-items: center;
+        padding: 10px 0;
+        margin : 10px 0;
+        .btn_addTache{
+            font-family: 'Orbitron', sans-serif;
+            font-size: 1.2rem;
+            background-color: #0CB28D;
+            border : 1px solid #0FD9AB;
+            margin : 10px 0 10px 0;
+            box-shadow: 3px 3px 10px rgba(175, 175, 175, 0.4) ;
+            &:hover{
+                background-color: #fff; 
+                color : #000;
+            } 
+        }
+        .textarea{
+            box-shadow: 5px 5px 20px rgba(175, 175, 175, 0.4) ;
+        }
+        .error{
+            color : red;
+        }
+    }
+}

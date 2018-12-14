@@ -1,0 +1,122 @@
+.form_global {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.form_global .titre {
+  text-align: center;
+  font-family: 'Orbitron', sans-serif;
+  padding-bottom: 10px;
+}
+
+.form_global .aFaire {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #0ECCA1;
+  -webkit-box-shadow: 5px 5px 20px rgba(175, 175, 175, 0.4);
+          box-shadow: 5px 5px 20px rgba(175, 175, 175, 0.4);
+  border-radius: 10px 0;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.form_global .aFaire .btn_archive {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #0CB28D;
+  border: 1px solid #0FD9AB;
+  margin: 20px 0 10px 0;
+  -webkit-box-shadow: 3px 3px 10px rgba(175, 175, 175, 0.4);
+          box-shadow: 3px 3px 10px rgba(175, 175, 175, 0.4);
+}
+
+.form_global .aFaire .btn_archive:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.form_global .archived {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 2px solid #0ECCA1;
+  -webkit-box-shadow: 5px 5px 20px rgba(175, 175, 175, 0.4);
+          box-shadow: 5px 5px 20px rgba(175, 175, 175, 0.4);
+  border-radius: 10px 0;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.form_global .addTache {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 0;
+  margin: 10px 0;
+}
+
+.form_global .addTache .btn_addTache {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.2rem;
+  background-color: #0CB28D;
+  border: 1px solid #0FD9AB;
+  margin: 10px 0 10px 0;
+  -webkit-box-shadow: 3px 3px 10px rgba(175, 175, 175, 0.4);
+          box-shadow: 3px 3px 10px rgba(175, 175, 175, 0.4);
+}
+
+.form_global .addTache .btn_addTache:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.form_global .addTache .textarea {
+  -webkit-box-shadow: 5px 5px 20px rgba(175, 175, 175, 0.4);
+          box-shadow: 5px 5px 20px rgba(175, 175, 175, 0.4);
+}
+
+.form_global .addTache .error {
+  color: red;
+}
+/*# sourceMappingURL=style.css.map */
